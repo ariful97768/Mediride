@@ -5,10 +5,10 @@ const FinalCTA: React.FC = () => {
     <section className="bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl font-bold text-navy mb-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy mb-4">
             Experience Premium Medical Transportation
           </h2>
-          <p className="text-lg text-dark-blue-gray">
+          <p className="text-sm sm:text-base text-dark-blue-gray">
             Whether you need personal transportation for medical appointments or
             a comprehensive solution for your healthcare facility, Mediride
             delivers professional, reliable service you can trust.
@@ -21,7 +21,7 @@ const FinalCTA: React.FC = () => {
             <h2 className="text-3xl font-extrabold mb-6 text-teal">
               Book Your Personal Ride
             </h2>
-            <ul className="space-y-3 mb-8">
+            <ul className="space-y-3 mb-8 text-sm sm:text-base">
               <li className="flex items-center">
                 <span className="text-teal mr-2">✓</span> Medical appointments
               </li>
@@ -53,7 +53,7 @@ const FinalCTA: React.FC = () => {
             <h2 className="text-3xl font-extrabold mb-6 text-gold">
               Partner With Us
             </h2>
-            <ul className="space-y-3 mb-8">
+            <ul className="space-y-3 mb-8 text-sm sm:text-base">
               <li className="flex items-center">
                 <span className="text-gold mr-2">✓</span> Reduce patient
                 no-shows
@@ -71,7 +71,7 @@ const FinalCTA: React.FC = () => {
                 management
               </li>
             </ul>
-            <button className="bg-white text-navy font-bold py-3 px-6 rounded-lg hover:bg-gray-100 transition">
+            <button className="bg-white w-full lg:w-auto text-sm sm:text-base text-navy font-bold py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-100 transition">
               Request Partnership Info →
             </button>
           </div>

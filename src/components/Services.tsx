@@ -6,8 +6,8 @@ const Services: React.FC = () => {
     <section id="services" className="py-16 bg-light-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-navy mb-4">Comprehensive Medical Transportation Services</h2>
-          <p className="text-dark-blue-gray max-w-3xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-navy mb-4">Comprehensive Medical Transportation Services</h2>
+          <p className="text-sm sm:text-base md:text-lg text-dark-blue-gray max-w-3xl mx-auto">
             From wheelchair-accessible medical transport to non-medical errands, Mediride delivers premium service for all your transportation needs.
           </p>
         </div>

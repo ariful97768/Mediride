@@ -6,8 +6,8 @@ const FacilityPartnerships: React.FC = () => {
     <section id="healthcare-partnerships" className="py-16 md:py-24 bg-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Trusted by Twin Cities Healthcare Facilities</h2>
-          <p className="text-lg text-gray-200">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6">Trusted by Twin Cities Healthcare Facilities</h2>
+          <p className="text-sm sm:text-base md:text-lg text-gray-200">
             Hospitals, dialysis centers, and senior care facilities partner with Mediride to ensure their patients and residents receive reliable, professional transportation.
           </p>
         </div>
@@ -47,10 +47,10 @@ const FacilityPartnerships: React.FC = () => {
         </div>
 
         <div className="text-center">
-          <a href="#partner" className="inline-block bg-teal text-white font-bold py-4 px-8 rounded-lg text-lg hover:bg-opacity-90 transition shadow-lg">
+          <a href="#partner" className="inline-block bg-teal text-white font-bold py-4 px-8 rounded-lg text-sm sm:text-base md:text-lg hover:bg-opacity-90 transition shadow-lg">
             Request Partnership Information
           </a>
-          <p className="mt-8 text-base text-gray-200">
+          <p className="mt-8 text-sm sm:text-base text-gray-200">
             Proudly serving patients from hospital networks, dialysis centers, senior communities across the Twin Cities + 15 more healthcare partners
           </p>
         </div>

@@ -6,10 +6,10 @@ const Pricing: React.FC = () => {
     <section className="py-16 md:py-24 bg-white border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold text-navy mb-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-navy mb-4">
             Transparent, Competitive Pricing
           </h2>
-          <p className="text-dark-blue-gray">
+          <p className="text-dark-blue-gray text-sm sm:text-base">
             Quality medical transportation shouldn't break the bank. Our
             transparent pricing ensures you know exactly what to expect—no
             hidden fees, no surprises.

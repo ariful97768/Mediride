@@ -7,7 +7,7 @@ const ServiceArea: React.FC = () => {
   return (
     <section id="service-area" className="py-16 bg-light-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-navy mb-6">Serving the Entire Twin Cities Metro Area</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-navy mb-6">Serving the Entire Twin Cities Metro Area</h2>
         <p className="text-dark-blue-gray mb-12 max-w-3xl">
           Mediride provides premium medical transportation throughout Minneapolis, St. Paul, and all seven counties of the Twin Cities metro. From urban neighborhoods to suburban communities, we're here to serve you.
         </p>

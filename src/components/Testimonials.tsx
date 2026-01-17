@@ -5,7 +5,7 @@ const Testimonials: React.FC = () => {
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-navy text-center mb-16">What Our Clients Say</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-navy text-center mb-16">What Our Clients Say</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Review 1 */}

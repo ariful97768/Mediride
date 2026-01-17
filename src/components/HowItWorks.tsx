@@ -6,7 +6,7 @@ const HowItWorks: React.FC = () => {
   return (
     <section className="py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-navy text-center mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold text-navy text-center mb-16">
           Simple, Reliable, Professional
         </h2>
 
@@ -29,10 +29,9 @@ const HowItWorks: React.FC = () => {
               assistance needed.
             </p>
             <div className="text-xs text-navy font-semibold bg-light-gray p-2 rounded">
-              <ul className="space-y-2.5 mb-6 grow">
+              <ul className="space-y-2.5 mb-6 grow text-start">
                 <li className="flex items-start text-sm text-dark-blue-gray">
-                  <span className="text-teal mr-2 font-bold">•</span> Online
-                  booking:
+                  <span className="text-teal mr-2 font-bold">•</span>Online:
                   <Link
                     className="text-navy hover:text-navy/80 transition duration-300"
                     href="https://gomediride.com/book"
@@ -80,7 +79,7 @@ const HowItWorks: React.FC = () => {
               to check-in, and safely back home.
             </p>
             <div className="text-xs text-navy font-semibold bg-light-gray p-2 rounded">
-              <ul className="space-y-2.5 mb-6 grow">
+              <ul className="space-y-2.5 mb-6 grow text-start">
                 <li className="flex items-start text-sm text-dark-blue-gray">
                   <span className="text-teal mr-2 font-bold">•</span> Driver
                   comes to your door
@@ -122,21 +121,26 @@ const HowItWorks: React.FC = () => {
               your health.
             </p>
             <div className="text-xs text-navy font-semibold bg-light-gray p-2 rounded">
-              <ul className="space-y-2.5 mb-6 grow">
+              <ul className="space-y-2.5 mb-6 grow text-start">
                 <li className="flex items-start text-sm text-dark-blue-gray">
-                  <span className="text-teal mr-2 font-bold">•</span> On-time guarantee
+                  <span className="text-teal mr-2 font-bold">•</span> On-time
+                  guarantee
                 </li>
                 <li className="flex items-start text-sm text-dark-blue-gray">
-                  <span className="text-teal mr-2 font-bold">•</span> Real-time tracking
+                  <span className="text-teal mr-2 font-bold">•</span> Real-time
+                  tracking
                 </li>
                 <li className="flex items-start text-sm text-dark-blue-gray">
-                  <span className="text-teal mr-2 font-bold">•</span> Automated reminders
+                  <span className="text-teal mr-2 font-bold">•</span> Automated
+                  reminders
                 </li>
                 <li className="flex items-start text-sm text-dark-blue-gray">
-                  <span className="text-teal mr-2 font-bold">•</span> Professional assistance
+                  <span className="text-teal mr-2 font-bold">•</span>{" "}
+                  Professional assistance
                 </li>
                 <li className="flex items-start text-sm text-dark-blue-gray">
-                  <span className="text-teal mr-2 font-bold">•</span> Comfortable hybrid vehicles
+                  <span className="text-teal mr-2 font-bold">•</span>{" "}
+                  Comfortable hybrid vehicles
                 </li>
               </ul>
             </div>
