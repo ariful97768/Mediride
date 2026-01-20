@@ -133,7 +133,7 @@ const Header: React.FC = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-20 left-0 right-0 bg-white border-t border-gray-100 pb-6">
+        <div className="lg:hidden absolute top-16 md:top-20 left-0 right-0 bg-white border-t border-gray-100 pb-6">
           <div className="px-4 pt-4 pb-4 space-y-3 flex flex-col">
             <div className="cursor-pointer">
               <div
