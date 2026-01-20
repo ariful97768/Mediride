@@ -13,10 +13,7 @@ const Hero: React.FC = () => {
       {/* Background Image Area */}
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url(/hero-image.png)`,
-          }}
+          className="absolute inset-0 bg-center bg-[url(/hero-image-sm.png)] sm:bg-[url(/hero-image-md.png)] md:bg-[url(/hero-image.png)] bg-cover bg-no-repeat"
         ></div>
 
         {/* Gradient Overlay - Matches the blue fade design */}
